@@ -4,7 +4,9 @@
   "description": "GAN Integrity backend code challenge",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+  "start-server": "node server.js",
+  "start-index": "node index.js",
+  "start": "npm-run-all -s start-server start-index"
   },
   "author": "GAN Integrity",
   "license": "ISC",
