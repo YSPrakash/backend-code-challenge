@@ -2,7 +2,7 @@
 
 The script `index.js` uses a local api to perform various operations on a set of cities. Your task is to implement an api so that the script runs successfully all the way to the end.
 
-Run `npm install` and `npm run start` to start the script.
+Run `npm install` and `npm run start` to start the server and script sequentially.
 
 Your api can load the required data from [here](addresses.json).
 
